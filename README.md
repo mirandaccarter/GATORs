@@ -52,5 +52,3 @@ The third tab provides a tool to build Venn Diagrams of gene overlap between up 
 #### KEGG Analysis
 The final tab provides a tool analyze KEGG pathways associated with your results. Powered by the R package clusterProfiler, users can select which datasets they would like to include, choose upregulated or downregulated genes, and GATORs will produce a bubble chart to show which KEGG pathways are significantly represented. Additionally a downloadable spreadsheet is provided with specific pathway identifiers, Gene Ratios, and genes which are differentially regulated in each pathway.
 
-
->>>>>>> 7042d5a2237616722bf876d26bc05a5ea0f0fac5
