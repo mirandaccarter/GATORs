@@ -99,3 +99,12 @@ The final tab provides a tool analyze KEGG pathways associated with your results
 ##### Gene enrichment table
 <img width="551" height="418" alt="image" src="https://github.com/user-attachments/assets/cb86746c-cf0c-44f7-b177-3477e97fa065" />
 
+## References
+
+Choudhary S, Mundodi V, Smith AD, Kadosh D. Genome-wide translational response of Candida albicans to fluconazole treatment. Microbiol Spectr. 2023 Oct 17;11(5):e0257223. doi: 10.1128/spectrum.02572-23. Epub 2023 Aug 23. Erratum in: Microbiol Spectr. 2024 May 2;12(5):e0067824. doi: 10.1128/spectrum.00678-24. PMID: 37610232; PMCID: PMC10580883.
+
+Eure ZG, Cordeiro TFVB, Walker AR, Rocha FG, Davey ME, Gibson FC.2026.Porphyromonas gingivalis sphingolipids affect early responses of THP-1 macrophages to outer membrane vesicles. Infect Immun94:e00736-25.https://doi.org/10.1128/iai.00736-25 
+
+Ganguly T, Peterson AM, Burkholder M, Kajfasz JK, Abranches J, Lemos JA. ZccE is a Novel P-type ATPase That Protects Streptococcus mutans Against Zinc Intoxication. PLoS Pathog. 2022 Aug 8;18(8):e1010477. doi: 10.1371/journal.ppat.1010477. PMID: 35939512; PMCID: PMC9387928.
+
+Kajfasz JK, Hosay HB, Gao Q, Huigens RW 3rd, Lemos JA. Zinc-Enhanced Activity of an Antimicrobial Halogenated Phenazine Against Streptococcus mutans and Other Gram-positive Bacteria. bioRxiv [Preprint]. 2025 Jul 10:2025.07.10.664208. doi: 10.1101/2025.07.10.664208. Update in: mSphere. 2026 Feb 24;11(2):e0058525. doi: 10.1128/msphere.00585-25. PMID: 40672199; PMCID: PMC12265616.
