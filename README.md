@@ -15,6 +15,9 @@ To begin first run, click the button in the top right hand corner of the window 
 
 ## File preparation
 Three sample datasets have been provided here to demonstrate the correct file set up. 
+
+GATORs has been developed with the intent to compare trends in RNAseq data, and will accept multiple spreadsheets within the data folder. An example of this set up has been provided in the _S. mutans_ zinc transcriptome.
+
 ### Main requirements
 1. Ensure all column names are formatted without underscores until the separator between name and replicate number (ie drug1.A_1, where "_1" indicates the replicate number)
 2. GATORs was developed with the intention to compare multiple datasets to each other, in order to do so each spreadsheet included in the data file should have ONE set of control replicates which all the experimental conditions will be compared to. If you would like to use multiple different datasets with different controls, include multiple spreadsheets within the data folder, but all controls must be labeled the same
@@ -30,10 +33,16 @@ You will then need to provide a control identifier. This can be whatever you wou
 #####
 After a few seconds GATORs will load a new page with several tabs. 
 #### Comparative Analysis
-The first section to appear includes two tabs. First a bar graph with the log2 Fold Change of a chosen gene under each experimental condition provided. CHange the gene displayed by typing in the locustag for a different gene in the box above. The second tab includes additional information on the gene selected and the significance of the chosen gene's regulation differences, with significant values highlighted.
+The first section to appear includes two tabs. First a bar graph with the log2 Fold Change of a chosen gene under each experimental condition provided. Change the gene displayed by typing in the locustag for a different gene in the box above. The second tab includes additional information on the gene selected and the significance of the chosen gene's regulation differences, with significant values highlighted. This section will remain visible regardless of which lower tabs are chosen.
+### Lower tabs
 #### Spreadsheet of all values 
+The first tab shows a downloadable spreadsheet of all resulting data. This spreadsheet includes the log2FC, p-value, adjusted p-value, and all information data for each gene. Additionally, for those genes which do not display an adjusted p-value, the reason why is indicated in the following column. This spreadsheet contains information for all of the datasets included in the analysis, and is  downloadable as a .csv file.
 #### Volcano Plots
-#### Venn Diagrams
-#### KEGG Analysis
+The second tab provides ready-made volcano plots, allowing the user to select the dataset to display, cut-off values for p-value and log2FC, number of top and bottom genes to be labeled, and if you would like the p-value or adjusted p-value to be used. 
 
+Included in this tab is a table of the differentially regulated genes in the dataset chosen for the volcano plot. This is a downloadable table displaying only genes above or below a certain threshold of log2FC and p-value.
+#### Venn Diagrams
+The third tab provides a tool to build Venn Diagrams of gene overlap between up to six different datasets. After selecting datasets to compare and a log2FC threshold for genes to include, GATORs will build two Venn diagrams. One for comparison of upregulated genes and one for comparison of downregulated genes. Each overlapping section will have the number of overlapping genes, which, if clicked on, will produce a downloadable spreadsheet of all the genes included in that section.
+#### KEGG Analysis
+The final tab provides a tool analyze KEGG pathways associated with your results. Powered by the R package clusterProfiler, users can select which datasets they would like to include, choose upregulated or downregulated genes, and GATORs will produce a bubble chart to show which KEGG pathways are significantly represented. Additionally a downloadable spreadsheet is provided with specific pathway identifiers, Gene Ratios, and genes which are differentially regulated in each pathway.
 
