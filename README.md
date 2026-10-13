@@ -44,20 +44,56 @@ Once GATORs is ready, a page will appear asking for three pathway inputs and a c
 
 You will then need to provide a control identifier. This can be whatever you would like it to be, but it must be the same across all spreadsheets. Click Run.
 
-After a few seconds GATORs will load a new page. For demonstration purposes, the _S. mutans_ zinc transcriptome will be pictured below
+After a few seconds GATORs will load a new page. For demonstration purposes, the _S. mutans_ zinc transcriptome will be pictured below. 
+
+Immediately to the right of the Load and Run DESeq2 button a notifier of zero count genes will appear. As part of the innate filtering with DESeq2 genes with a zero-count will be removed. If this is applicable to your dataset you will find the number of excluded genes here.
+
+<img width="850" height="113" alt="image" src="https://github.com/user-attachments/assets/91d16e0c-aa62-4455-a472-6b7f2f962ae9" />
 
 #### Comparative Analysis
 The first section to appear includes two tabs. First a bar graph with the log2 Fold Change of a chosen gene under each experimental condition provided. Change the gene displayed by typing in the locustag for a different gene in the box above. The second tab includes additional information on the gene selected and the significance of the chosen gene's regulation differences, with significant values highlighted. This section will remain visible regardless of which lower tabs are chosen.
 
+##### Alterable bar graph displaying gene regulation for each experimental condition
+<img width="829" height="424" alt="image" src="https://github.com/user-attachments/assets/0aaeb831-8b72-4775-93ea-3a560ef07828" />
+
+##### Additional information tab displaying significance of gene regulation and relevant genetic info
+<img width="349" height="134" alt="image" src="https://github.com/user-attachments/assets/44dca445-8f23-4eaf-8a8f-1d0a5e582ebe" />
+
 ### Lower tabs
 #### Spreadsheet of all values 
 The first tab shows a downloadable spreadsheet of all resulting data. This spreadsheet includes the log2FC, p-value, adjusted p-value, and all information data for each gene. Additionally, for those genes which do not display an adjusted p-value, the reason why is indicated in the following column. This spreadsheet contains information for all of the datasets included in the analysis, and is  downloadable as a .csv file.
+
+##### Searchable Spreadsheet of all data produced after differential expression analysis of all files 
+<img width="798" height="420" alt="image" src="https://github.com/user-attachments/assets/47efa1b9-0428-4e8f-b76e-e6d7629528e6" />
+
 #### Volcano Plots
 The second tab provides ready-made volcano plots, allowing the user to select the dataset to display, cut-off values for p-value and log2FC, number of top and bottom genes to be labeled, and if you would like the p-value or adjusted p-value to be used. 
+##### Adjustable volcano plot of 4 mM Zn treatment after 15 minutes 
+<img width="785" height="497" alt="image" src="https://github.com/user-attachments/assets/4018a98c-f63c-4cc8-8742-a257e45271bf" />
 
 Included in this tab is a table of the differentially regulated genes in the dataset chosen for the volcano plot. This is a downloadable table displaying only genes above or below a certain threshold of log2FC and p-value.
+
+##### Searchable table of differentially regulated genes for dataset shown in volcano plot above
+<img width="800" height="481" alt="image" src="https://github.com/user-attachments/assets/3d389edd-60ad-47f8-b615-07dcc9f4bff9" />
+
 #### Venn Diagrams
-The third tab provides a tool to build Venn Diagrams of gene overlap between up to six different datasets. After selecting datasets to compare and a log2FC threshold for genes to include, GATORs will build two Venn diagrams. One for comparison of upregulated genes and one for comparison of downregulated genes. Each overlapping section will have the number of overlapping genes, which, if clicked on, will produce a downloadable spreadsheet of all the genes included in that section.
+The third tab provides a tool to build Venn Diagrams of gene overlap between up to six different datasets. After selecting datasets to compare and a log2FC threshold for genes to include, GATORs will build two Venn diagrams. One for comparison of upregulated genes and one for comparison of downregulated genes.
+If a given dataset does not have any genes that meet the threshold requirements set by the user, no section will be displayed for that dataset (as seen below where HP29 treatment alone does not produce sufficient genes downregulated past 2 log2FC).
+
+##### Venn Diagram Builder
+<img width="798" height="386" alt="image" src="https://github.com/user-attachments/assets/ad116c5c-07dc-4cf2-95e2-50280621b1ef" />
+
+Each overlapping section will have the number of overlapping genes, which, if clicked on, will produce a downloadable spreadsheet of all the genes included in that section.
+
+##### Venn Diagram overlap spreadsheet
+<img width="401" height="385" alt="image" src="https://github.com/user-attachments/assets/a3fb28c9-996b-405e-bdd2-ee4e19c51046" />
+
 #### KEGG Analysis
 The final tab provides a tool analyze KEGG pathways associated with your results. Powered by the R package clusterProfiler, users can select which datasets they would like to include, choose upregulated or downregulated genes, and GATORs will produce a bubble chart to show which KEGG pathways are significantly represented. Additionally a downloadable spreadsheet is provided with specific pathway identifiers, Gene Ratios, and genes which are differentially regulated in each pathway.
+
+##### Bubble chart
+<img width="803" height="407" alt="image" src="https://github.com/user-attachments/assets/21b3d571-a41c-4a00-9f5e-cfe8f7bb7c73" />
+
+##### Gene enrichment table
+<img width="551" height="418" alt="image" src="https://github.com/user-attachments/assets/cb86746c-cf0c-44f7-b177-3477e97fa065" />
 
