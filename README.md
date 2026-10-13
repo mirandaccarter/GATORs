@@ -67,9 +67,11 @@ The first tab shows a downloadable spreadsheet of all resulting data. This sprea
 <img width="798" height="420" alt="image" src="https://github.com/user-attachments/assets/47efa1b9-0428-4e8f-b76e-e6d7629528e6" />
 
 #### Volcano Plots
-The second tab provides ready-made volcano plots, allowing the user to select the dataset to display, cut-off values for p-value and log2FC, number of top and bottom genes to be labeled, and if you would like the p-value or adjusted p-value to be used. 
+The second tab provides ready-made volcano plots, allowing the user to select the dataset to display, cut-off values for p-value and log2FC, number of top and bottom genes to be labeled, and if you would like the p-value or adjusted p-value to be used. Hovering over points will provide more information about a given point. 
 ##### Adjustable volcano plot of 4 mM Zn treatment after 15 minutes 
 <img width="785" height="497" alt="image" src="https://github.com/user-attachments/assets/4018a98c-f63c-4cc8-8742-a257e45271bf" />
+
+In the top right corner of the plot there are several action buttons, including lasso selection tools, zoom tools, a full screen tool, and a download option.
 
 Included in this tab is a table of the differentially regulated genes in the dataset chosen for the volcano plot. This is a downloadable table displaying only genes above or below a certain threshold of log2FC and p-value.
 
