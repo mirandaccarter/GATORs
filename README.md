@@ -21,6 +21,15 @@ Three sample datasets have been provided here to demonstrate the correct file se
 
 GATORs has been developed with the intent to compare trends in RNAseq data, and will accept multiple spreadsheets within the data folder. An example of this set up has been provided in the _S. mutans_ zinc transcriptome.
 
+For each spreadsheet provided to GATORs in the data folder, there must only be one control to which every distinct experimental condition will be compared to. If you wish to compare the results of different experiments where different controls were used, you must ensure that the control condition is indicated in the same way across all spreadsheets. Comparisons across experiments should NOT be used to make conclusions without additional experimental validation, and should ONLY be useful for observation of trends.
+
+In the case of the provided example datasets, the Control condition in each spreadsheet indicates the following: 
+- _S. mutans_ 4 mM Zn treatment: Control = untreated sample taken prior to zinc exposure for 15 or 90 minutes
+- _S. mutans_ HP29 + Zn: Control = untreated sample taken after the 30 minute exposure period
+- _C. albicans_ fluconazole treatment: Nodrug-rna serves as the control and is an untreated sample collected at the same time as flucoonazole treated samples
+- Macrophage outer membrane vesicle treatment: Control = Macrophages not treated with either wild type or Δspd OMVs
+
+
 ### Main requirements
 1. Ensure all column names are formatted without underscores until the separator between name and replicate number (ie drug1.A_1, where "_1" indicates the replicate number)
 2. GATORs was developed with the intention to compare multiple datasets to each other, in order to do so each spreadsheet included in the data file should have ONE set of control replicates which all the experimental conditions will be compared to. If you would like to use multiple different datasets with different controls, include multiple spreadsheets within the data folder, but all controls must be labeled the same
