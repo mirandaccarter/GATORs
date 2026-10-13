@@ -11,7 +11,10 @@ GATORs is an R-based shiny app. Prior to downloading the GATORs script ensure yo
 ## After download
 Once you have downloaded the script (GATORS 2026.09.30.R), open the file in Rstudio. Upon running GATORs for the first time there will be many packages that need to be downloaded, which GATORs will do the first time it runs. Every time afterwards GATORs will continue to check for updates and routinely update where needed. 
 #####
-To begin first run, click the button in the top right hand corner of the window containing the script labeled "Run App" with a green arrow next to it. If this is your first time using GATORs it will take several minutes to download and install necessary packages. This may take several minutes. If you are asked to update packages during this process indicate yes.
+To begin first run, click the button in the top right hand corner of the window containing the script labeled "Run App" with a green arrow next to it. If this is your first time using GATORs it will take several minutes to download and install necessary packages. This may take several minutes. If you are asked to update packages during this process indicate yes and that all packages should be updated.
+
+<img width="407" height="289" alt="image" src="https://github.com/user-attachments/assets/16944a6c-8f49-4239-8ae5-4aa1c65a5c3c" />
+
 
 ## File preparation
 Three sample datasets have been provided here to demonstrate the correct file set up. 
