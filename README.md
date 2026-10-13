@@ -44,7 +44,7 @@ Once GATORs is ready, a page will appear asking for three pathway inputs and a c
 
 You will then need to provide a control identifier. This can be whatever you would like it to be, but it must be the same across all spreadsheets. Click Run.
 
-After a few seconds GATORs will load a new page.
+After a few seconds GATORs will load a new page. For demonstration purposes, the _S. mutans_ zinc transcriptome will be pictured below
 
 #### Comparative Analysis
 The first section to appear includes two tabs. First a bar graph with the log2 Fold Change of a chosen gene under each experimental condition provided. Change the gene displayed by typing in the locustag for a different gene in the box above. The second tab includes additional information on the gene selected and the significance of the chosen gene's regulation differences, with significant values highlighted. This section will remain visible regardless of which lower tabs are chosen.
