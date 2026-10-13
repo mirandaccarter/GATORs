@@ -30,13 +30,15 @@ GATORs has been developed with the intent to compare trends in RNAseq data, and 
 
 ## Get started!
 Once GATORs is ready, a page will appear asking for three pathway inputs and a control identifier. Paste in the pathway to the folder containing data spreadsheets, the pathway to the gene library, and pathway to the labels file. 
+<img width="936" height="249" alt="image" src="https://github.com/user-attachments/assets/021d315e-6297-4630-9728-47b1f5f5bff2" />
 - When providing the path to the files, ensure that all of the backwards slashes are changed to forward slashes
 #####
 You will then need to provide a control identifier. This can be whatever you would like it to be, but it must be the same across all spreadsheets. Click Run.
 #####
-After a few seconds GATORs will load a new page with several tabs. 
+After a few seconds GATORs will load a new page.
 #### Comparative Analysis
 The first section to appear includes two tabs. First a bar graph with the log2 Fold Change of a chosen gene under each experimental condition provided. Change the gene displayed by typing in the locustag for a different gene in the box above. The second tab includes additional information on the gene selected and the significance of the chosen gene's regulation differences, with significant values highlighted. This section will remain visible regardless of which lower tabs are chosen.
+
 ### Lower tabs
 #### Spreadsheet of all values 
 The first tab shows a downloadable spreadsheet of all resulting data. This spreadsheet includes the log2FC, p-value, adjusted p-value, and all information data for each gene. Additionally, for those genes which do not display an adjusted p-value, the reason why is indicated in the following column. This spreadsheet contains information for all of the datasets included in the analysis, and is  downloadable as a .csv file.
