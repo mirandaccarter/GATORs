@@ -87,7 +87,7 @@ If a given dataset does not have any genes that meet the threshold requirements 
 
 Each overlapping section will have the number of overlapping genes, which, if clicked on, will produce a downloadable spreadsheet of all the genes included in that section.
 
-##### Venn Diagram overlap spreadsheet
+##### Venn Diagram overlap table
 <img width="401" height="385" alt="image" src="https://github.com/user-attachments/assets/a3fb28c9-996b-405e-bdd2-ee4e19c51046" />
 
 #### KEGG Analysis
