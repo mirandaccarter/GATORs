@@ -37,6 +37,9 @@ In the case of the provided example datasets, the Control condition in each spre
 4. Library set up must include the following columns: Locustag (containing gene id), Gene (containing gene name), Description (containing a brief description of the gene), Functional_Group (containing relevant functional group info), and kegg_gene (containing the gene locus as found in KEGG).
 6. The labels file contains two columns, shortname and longname. Shortname is the column  indicating the label as shown on the data. Long name is the corresponding label to be used for display purposes.
 
+### Batch Effect Correction
+If you would like to analyze data which has been run in multiple batches 
+
 ## Get started!
 Once GATORs is ready, a page will appear asking for three pathway inputs and a control identifier. Paste in the pathway to the folder containing data spreadsheets, the pathway to the gene library, and pathway to the labels file. 
 <img width="936" height="249" alt="image" src="https://github.com/user-attachments/assets/021d315e-6297-4630-9728-47b1f5f5bff2" />
